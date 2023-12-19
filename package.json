@@ -1,0 +1,16 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx cypress run",
+    "smoke": "npx cypress run --spec cypress/e2e/methods/check.js --headed --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}

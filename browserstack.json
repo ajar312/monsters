@@ -1,0 +1,24 @@
+{
+    "auth": {
+        "username": "ajarduishembieva_2AYySJ",
+        "access_key": "kwtam3vh358Yg88Sh1zx"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [ 
+                "latest"
+            ]
+
+            
+        } 
+
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "project_name": "project-name",
+        "build_name": "monsters",
+        "headless": false
+    }
+}
